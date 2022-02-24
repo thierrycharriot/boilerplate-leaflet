@@ -23,5 +23,6 @@ function initializeIcone() {
     });
 
     L.marker([45.8651633, -0.3220895], {icon: customIcon}).addTo(map).bindTooltip("Je n'habite pas ici ! :)", {permanent: true, direction: 'bottom'});
+    
     map.addLayer(osmLayer);
 }
