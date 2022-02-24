@@ -1,4 +1,7 @@
-console.log('main js en marche! :)');
+window.addEventListener("DOMContentLoaded", (event) => {
+    console.log("DOM entièrement chargé et analysé! :)");
+    initializeIcone()
+});
 // https://www.google.com/maps/@45.8651633,-0.3220895,21z?hl=fr
 
 // https://francois-parrou.com/blog/carte-leaflet/
